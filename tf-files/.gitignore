@@ -1,0 +1,11 @@
+# Secret variable values — never commit these
+*.tfvars
+*.tfvars.json
+
+# Terraform state — contains plaintext passwords and sensitive outputs
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform working directory
+.terraform/
+.terraform.lock.hcl
