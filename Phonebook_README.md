@@ -22,7 +22,7 @@
 
 The screenshot below shows the live Phonebook Application after `terraform apply` completed. The search for "ll" returns contacts from the live RDS MySQL 8.4 database — confirming the full CRUD pipeline working against real AWS infrastructure provisioned entirely by Terraform.
 
-![alt text](../clarusway-aws-devops-19/devops/projects/202-Terraform-Phonebook-Application-deployed-on-AWS/tf-files/search-snapshot.png)
+![alt text](tf-files/search-snapshot.png)
 
 *Live deployment — Flask Phonebook running on EC2 Auto Scaling Group behind an ALB, querying RDS MySQL 8.4. Entire stack provisioned with one `terraform apply`. Zero console clicks.*
 

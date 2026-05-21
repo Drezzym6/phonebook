@@ -1,0 +1,10 @@
+# Terraform — sensitive and generated files
+*.tfvars
+*.tfvars.json
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Claude Code
+.claude/
